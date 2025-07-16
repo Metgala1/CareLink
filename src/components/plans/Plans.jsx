@@ -15,13 +15,13 @@ const Plans = () => {
 
       <div className={styles.billingToggle}>
         <button
-          className={billingCycle === 'monthly' ? styles.active : styles.monthly}
+          className={billingCycle === 'monthly' ? styles.active : ''}
           onClick={() => setBillingCycle('monthly')}
         >
           Monthly
         </button>
         <button
-          className={billingCycle === 'yearly' ? styles.active : styles.yearly}
+          className={billingCycle === 'yearly' ? styles.active : ''}
           onClick={() => setBillingCycle('yearly')}
         >
           Yearly

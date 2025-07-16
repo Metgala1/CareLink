@@ -25,14 +25,13 @@ p {
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
   border: none;
-  background: #eee;
   cursor: pointer;
   border-radius: 5px;
   transition: background 0.3s ease;
 }
 
 .active {
-  background: #1a3c8b;
+  background-color: green;
   color: white;
 }
 
