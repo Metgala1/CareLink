@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './PricingPlans.module.css';
 import PricingCard from './PricingCard';
+import { Link } from 'react-router-dom';
 
 const Plans = () => {
   const [billingCycle, setBillingCycle] = useState('monthly');
@@ -27,8 +28,9 @@ const Plans = () => {
           Yearly
         </button>
       </div>
-
+       
       <div className={styles.planCards}>
+        <Link className={styles.link} to={'createaccount'}>
         <PricingCard
           title="Basic"
           subtitle="Best for Personal use."
@@ -43,7 +45,8 @@ const Plans = () => {
           ]}
           isPopular={true}
         />
-
+        </Link>
+        <Link className={styles.link} to={'createaccount'}>
         <PricingCard
           title="Premium"
           subtitle="For large teams & corporations"
@@ -57,6 +60,8 @@ const Plans = () => {
             'Advanced analytics',
           ]}
         />
+        </Link>
+        
       </div>
 
       <div className={styles.enterpriseSection}>

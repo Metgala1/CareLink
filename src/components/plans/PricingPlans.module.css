@@ -25,6 +25,7 @@ p {
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
   border: none;
+  color: white;
   cursor: pointer;
   border-radius: 5px;
   transition: background 0.3s ease;
@@ -42,7 +43,9 @@ p {
   gap: 2rem;
   animation: fadeInUp 0.6s ease-in-out;
 }
-
+.link{
+  text-decoration: none;
+}
 .enterpriseSection {
   margin-top: 3rem;
 }
@@ -56,12 +59,6 @@ p {
   color: #1a3c8b;
   font-weight: bold;
   text-decoration: underline;
-}
-.monthly{
-    background-color: #1a3c8b;
-}
-.yearly{
-    background-color: #1a3c8b;
 }
 
 @keyframes fadeInUp {
