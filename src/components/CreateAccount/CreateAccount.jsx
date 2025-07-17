@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaGoogle, FaFacebookF, FaApple } from 'react-icons/fa';
 import styles from './CreateAccount.module.css';
+import { Link } from 'react-router-dom';
 
 const CreateAccount = () => {
     const [isSignUp, setIsSignUp] = useState(true);
@@ -57,6 +58,7 @@ const CreateAccount = () => {
                             <input type="checkbox" required />
                             By signing up, you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>
                         </label>
+                        <Link to={'/home'}>Home</Link>
                     </>
                 ) : (
                     <>
