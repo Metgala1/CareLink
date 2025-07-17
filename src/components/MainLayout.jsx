@@ -1,4 +1,4 @@
-import { Outlet, useNavigation, useLocation } from "react-router-dom";
+import { Outlet, useNavigation} from "react-router-dom";
 import Loader from "./loader/Loader";
 //import photo1 from '../assets/photo1.png';
 

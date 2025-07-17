@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Dashboard.module.css';
-import { FaSignOutAlt, FaBars, FaTimes } from 'react-icons/fa';
+import {  FaBars, FaTimes } from 'react-icons/fa';
 
 const Dashboard = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
